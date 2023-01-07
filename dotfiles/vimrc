@@ -19,6 +19,16 @@ if exists('skip_defaults_vim')
   finish
 endif
 
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'iamcco/markdown-preview.nvim'
+call vundle#end()
+filetype plugin indent on    " required
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 " Avoid side effects when it was already reset.
