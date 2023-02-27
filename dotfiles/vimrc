@@ -23,16 +23,15 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'iamcco/markdown-preview.nvim'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'peitalin/vim-jsx-typescript'
-Plugin 'vim-airline/vim-airline'
-call vundle#end()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'iamcco/markdown-preview.nvim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'leafgarland/typescript-vim'
+Bundle 'peitalin/vim-jsx-typescript'
+Bundle 'vim-airline/vim-airline'
+
 filetype plugin indent on    " required
 
 let g:jsx_ext_required = 0
