@@ -180,8 +180,8 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
-    'pane:splitHorizontal': ['ctrl+o'],
-    'pane:splitVertical': ['ctrl+e'],
+    'pane:splitRight': ['ctrl+o'],
+    'pane:splitDown': ['ctrl+e'],
     'tab:new': ['alt+t', 'cmd+t'],
     'tab:prev': ['alt+h', 'cmd+h'],
     'tab:next': ['alt+l', 'cmd+l'],
