@@ -150,7 +150,7 @@ module.exports = {
         maximize: 'meta+enter'
       },
       showIndicators: true, // Show pane number
-      indicatorPrefix: '⊞ Win +', // Will be completed with pane number
+      indicatorPrefix: '🔥', // Will be completed with pane number
       indicatorStyle: { // Added to indicator <div>
         position: 'absolute',
         top: 0,
