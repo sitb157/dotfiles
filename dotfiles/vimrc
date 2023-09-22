@@ -34,6 +34,12 @@ Bundle 'vim-airline/vim-airline'
 
 filetype plugin indent on    " required
 
+" esc in insert & visual mode
+inoremap ` <esc>
+vnoremap ` <esc>
+" esc in command mode
+cnoremap ` <C-C>
+
 let g:jsx_ext_required = 0
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
